@@ -6,7 +6,18 @@
     <description>Recent content in Posts on 개발새발</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 11 Oct 2020 20:42:28 +0900</lastBuildDate><atom:link href="https://gnshjoo.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Feb 2021 20:24:39 +0900</lastBuildDate><atom:link href="https://gnshjoo.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Go mod</title>
+      <link>https://gnshjoo.github.io/post/2021-02-16-go-mod/</link>
+      <pubDate>Tue, 16 Feb 2021 20:24:39 +0900</pubDate>
+      
+      <guid>https://gnshjoo.github.io/post/2021-02-16-go-mod/</guid>
+      <description>보통 개발을 할때 프로젝트들은 Projects 디렉토리에 넣어서 관리 하였다. 하지만 Go 개발은 ~/gnshjoo/go/src/github.com/gnshjoo/ 이 디렉토리 하위에서 개발을 진행 할 수 밖에 없었다. go mod을 보기 전까지는..
+go mod  go mod를 사용하면 좋은 점은 $GOPATH/src 디렉토리 바깥으로 프로젝트 생성이 가능 언제 어디서나 누구라도 항상 동일한 빌드 결과를 보장한다.
+ go mod init &amp;lt;module name&amp;gt; go mod init github.com/&amp;lt;username&amp;gt;/&amp;lt;repo&amp;gt; go mod init을 사용할 때 모들 명으로 초기화를 진행 해도 되지만 github.com/&amp;lt;username&amp;gt;/&amp;lt;repo&amp;gt;로 정의 하는 것을 추천한다.</description>
+    </item>
+    
     <item>
       <title>Install Oh My Zsh</title>
       <link>https://gnshjoo.github.io/post/install-oh-my-zsh/</link>
