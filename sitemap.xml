@@ -1,90 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://gnshjoo.github.io/post/2021-02-16-go-mod/</loc>
     <lastmod>2021-02-16T20:24:39+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://gnshjoo.github.io/tags/go/</loc>
     <lastmod>2021-02-16T20:24:39+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://gnshjoo.github.io/post/</loc>
     <lastmod>2021-02-16T20:24:39+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://gnshjoo.github.io/tags/</loc>
     <lastmod>2021-02-16T20:24:39+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://gnshjoo.github.io/</loc>
     <lastmod>2021-02-16T20:24:39+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://gnshjoo.github.io/post/install-oh-my-zsh/</loc>
     <lastmod>2020-10-11T20:42:28+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://gnshjoo.github.io/tags/oh-my-zsh/</loc>
     <lastmod>2020-10-11T20:42:28+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://gnshjoo.github.io/tags/django/</loc>
     <lastmod>2020-10-08T17:31:53+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://gnshjoo.github.io/tags/python/</loc>
     <lastmod>2020-10-08T17:31:53+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://gnshjoo.github.io/post/python-pipenv/</loc>
     <lastmod>2020-10-08T17:31:53+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://gnshjoo.github.io/tags/hhkb/</loc>
     <lastmod>2020-10-07T21:58:30+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://gnshjoo.github.io/post/hhkb/</loc>
     <lastmod>2020-10-07T21:58:30+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://gnshjoo.github.io/post/go_repetitive/</loc>
     <lastmod>2020-10-03T19:04:45+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://gnshjoo.github.io/tags/blog/</loc>
     <lastmod>2020-09-29T22:24:51+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://gnshjoo.github.io/tags/hugo/</loc>
     <lastmod>2020-09-29T22:24:51+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://gnshjoo.github.io/post/how_to_setting_hugo/</loc>
     <lastmod>2020-09-29T22:24:51+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://gnshjoo.github.io/tags/themes/</loc>
     <lastmod>2020-09-29T22:24:51+09:00</lastmod>
   </url>
-  
 </urlset>
