@@ -6,13 +6,22 @@
     <description>Recent content in Tags on 개발새발</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Tue, 16 Feb 2021 20:24:39 +0900</lastBuildDate><atom:link href="https://gnshjoo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Mar 2021 17:29:29 +0900</lastBuildDate><atom:link href="https://gnshjoo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>go</title>
       <link>https://gnshjoo.github.io/tags/go/</link>
-      <pubDate>Tue, 16 Feb 2021 20:24:39 +0900</pubDate>
+      <pubDate>Tue, 16 Mar 2021 17:29:29 +0900</pubDate>
       
       <guid>https://gnshjoo.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://gnshjoo.github.io/tags/python/</link>
+      <pubDate>Tue, 16 Mar 2021 17:29:29 +0900</pubDate>
+      
+      <guid>https://gnshjoo.github.io/tags/python/</guid>
       <description></description>
     </item>
     
@@ -31,15 +40,6 @@
       <pubDate>Thu, 08 Oct 2020 17:31:53 +0900</pubDate>
       
       <guid>https://gnshjoo.github.io/tags/django/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://gnshjoo.github.io/tags/python/</link>
-      <pubDate>Thu, 08 Oct 2020 17:31:53 +0900</pubDate>
-      
-      <guid>https://gnshjoo.github.io/tags/python/</guid>
       <description></description>
     </item>
     

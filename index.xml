@@ -6,7 +6,16 @@
     <description>Recent content on 개발새발</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Tue, 16 Feb 2021 20:24:39 +0900</lastBuildDate><atom:link href="https://gnshjoo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Mar 2021 17:29:29 +0900</lastBuildDate><atom:link href="https://gnshjoo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fibo</title>
+      <link>https://gnshjoo.github.io/post/fibo/</link>
+      <pubDate>Tue, 16 Mar 2021 17:29:29 +0900</pubDate>
+      
+      <guid>https://gnshjoo.github.io/post/fibo/</guid>
+      <description>Go Python </description>
+    </item>
+    
     <item>
       <title>About Go mod</title>
       <link>https://gnshjoo.github.io/post/2021-02-16-go-mod/</link>
