@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Django on 개발새발</title>
-    <link>https://gnshjoo.github.io/tags/django/</link>
-    <description>Recent content in Django on 개발새발</description>
+    <title>Django on 이모저모</title>
+    <link>https://blog.gnshjoo.io/tags/django/</link>
+    <description>Recent content in Django on 이모저모</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 08 Oct 2020 17:31:53 +0900</lastBuildDate><atom:link href="https://gnshjoo.github.io/tags/django/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Oct 2020 17:31:53 +0900</lastBuildDate><atom:link href="https://blog.gnshjoo.io/tags/django/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python Pipenv 가상환경 셋팅하기</title>
-      <link>https://gnshjoo.github.io/post/python-pipenv/</link>
+      <link>https://blog.gnshjoo.io/post/python-pipenv/</link>
       <pubDate>Thu, 08 Oct 2020 17:31:53 +0900</pubDate>
       
-      <guid>https://gnshjoo.github.io/post/python-pipenv/</guid>
+      <guid>https://blog.gnshjoo.io/post/python-pipenv/</guid>
       <description>1. Python 가상환경 설정 Python3이 설치 되어있다는 가정하에 설명하도록 하겠다.
 $ pip3 install pipenv $ pipenv --version pipenv, version 2020.6.2 pipenv을 사용하려면 디렉토리를 만들어 준 후 디렉토리로 이동한다.
 $ mkdir django-test &amp;amp;&amp;amp; cd django-test $ pipenv shell Courtesy Notice: Pipenv found itself running within a virtual environment, so it will automatically use that environment, instead of creating its own for any project. You can set PIPENV_IGNORE_VIRTUALENVS=1 to force pipenv to ignore that environment and create its own instead.</description>

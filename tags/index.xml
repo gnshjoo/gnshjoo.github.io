@@ -1,90 +1,90 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 개발새발</title>
-    <link>https://gnshjoo.github.io/tags/</link>
-    <description>Recent content in Tags on 개발새발</description>
+    <title>Tags on 이모저모</title>
+    <link>https://blog.gnshjoo.io/tags/</link>
+    <description>Recent content in Tags on 이모저모</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Wed, 17 Mar 2021 14:57:54 +0900</lastBuildDate><atom:link href="https://gnshjoo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Mar 2021 14:57:54 +0900</lastBuildDate><atom:link href="https://blog.gnshjoo.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>알고리즘</title>
-      <link>https://gnshjoo.github.io/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</link>
+      <link>https://blog.gnshjoo.io/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</link>
       <pubDate>Wed, 17 Mar 2021 14:57:54 +0900</pubDate>
       
-      <guid>https://gnshjoo.github.io/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</guid>
+      <guid>https://blog.gnshjoo.io/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</guid>
       <description></description>
     </item>
     
     <item>
       <title>go</title>
-      <link>https://gnshjoo.github.io/tags/go/</link>
+      <link>https://blog.gnshjoo.io/tags/go/</link>
       <pubDate>Tue, 16 Mar 2021 17:29:29 +0900</pubDate>
       
-      <guid>https://gnshjoo.github.io/tags/go/</guid>
+      <guid>https://blog.gnshjoo.io/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
-      <link>https://gnshjoo.github.io/tags/python/</link>
+      <link>https://blog.gnshjoo.io/tags/python/</link>
       <pubDate>Tue, 16 Mar 2021 17:29:29 +0900</pubDate>
       
-      <guid>https://gnshjoo.github.io/tags/python/</guid>
+      <guid>https://blog.gnshjoo.io/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>oh-my-zsh</title>
-      <link>https://gnshjoo.github.io/tags/oh-my-zsh/</link>
+      <link>https://blog.gnshjoo.io/tags/oh-my-zsh/</link>
       <pubDate>Sun, 11 Oct 2020 20:42:28 +0900</pubDate>
       
-      <guid>https://gnshjoo.github.io/tags/oh-my-zsh/</guid>
+      <guid>https://blog.gnshjoo.io/tags/oh-my-zsh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Django</title>
-      <link>https://gnshjoo.github.io/tags/django/</link>
+      <link>https://blog.gnshjoo.io/tags/django/</link>
       <pubDate>Thu, 08 Oct 2020 17:31:53 +0900</pubDate>
       
-      <guid>https://gnshjoo.github.io/tags/django/</guid>
+      <guid>https://blog.gnshjoo.io/tags/django/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HHKB</title>
-      <link>https://gnshjoo.github.io/tags/hhkb/</link>
+      <link>https://blog.gnshjoo.io/tags/hhkb/</link>
       <pubDate>Wed, 07 Oct 2020 21:58:30 +0900</pubDate>
       
-      <guid>https://gnshjoo.github.io/tags/hhkb/</guid>
+      <guid>https://blog.gnshjoo.io/tags/hhkb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blog</title>
-      <link>https://gnshjoo.github.io/tags/blog/</link>
+      <link>https://blog.gnshjoo.io/tags/blog/</link>
       <pubDate>Tue, 29 Sep 2020 22:24:51 +0900</pubDate>
       
-      <guid>https://gnshjoo.github.io/tags/blog/</guid>
+      <guid>https://blog.gnshjoo.io/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://gnshjoo.github.io/tags/hugo/</link>
+      <link>https://blog.gnshjoo.io/tags/hugo/</link>
       <pubDate>Tue, 29 Sep 2020 22:24:51 +0900</pubDate>
       
-      <guid>https://gnshjoo.github.io/tags/hugo/</guid>
+      <guid>https://blog.gnshjoo.io/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>https://gnshjoo.github.io/tags/themes/</link>
+      <link>https://blog.gnshjoo.io/tags/themes/</link>
       <pubDate>Tue, 29 Sep 2020 22:24:51 +0900</pubDate>
       
-      <guid>https://gnshjoo.github.io/tags/themes/</guid>
+      <guid>https://blog.gnshjoo.io/tags/themes/</guid>
       <description></description>
     </item>
     
