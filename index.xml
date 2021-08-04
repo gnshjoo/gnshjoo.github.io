@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>이모저모</title>
+    <title>개발새발</title>
     <link>https://blog.gnshjoo.io/</link>
-    <description>Recent content on 이모저모</description>
+    <description>Recent content on 개발새발</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Wed, 17 Mar 2021 14:57:54 +0900</lastBuildDate><atom:link href="https://blog.gnshjoo.io/index.xml" rel="self" type="application/rss+xml" />
