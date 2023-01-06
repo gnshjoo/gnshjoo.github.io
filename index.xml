@@ -1,103 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>개발새발</title>
-    <link>https://blog.gnshjoo.io/</link>
-    <description>Recent content on 개발새발</description>
+    <title>David Dev Blog</title>
+    <link>https://blog.shjoo.io/</link>
+    <description>Recent content on David Dev Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language>
-    <lastBuildDate>Wed, 17 Mar 2021 14:57:54 +0900</lastBuildDate><atom:link href="https://blog.gnshjoo.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>재귀 알고리즘 (이진탐색) </title>
-      <link>https://blog.gnshjoo.io/post/recursive/</link>
-      <pubDate>Wed, 17 Mar 2021 14:57:54 +0900</pubDate>
-      
-      <guid>https://blog.gnshjoo.io/post/recursive/</guid>
-      <description>재귀 알고리즘의 유용성
- 사람이 생가하는 방식을 코드로 옮길 수 있기 때문에 유용한 면이 있다. ex) 하노이의 탑  재귀 단점
- 효율적이지 않다..?!  리스트 L과, 그 안에서 찾으려 하는 원소 x 가 인자로 주어지고, 또한 탐색의 대상이 되는 리스트내에서의 범위 인덱스가 lower 부터 upper 까지로 (인자로) 정해질 때, x와 같은 값을 가지는 원소의 인덱스를 리턴하는 함수를 완성하세요. 만약 리스트 L 안에 x 와 같은 값을 가지는 원소가 존재하지 않을 경우에는 -1 을 리턴합니다.</description>
-    </item>
-    
-    <item>
-      <title>Fibo</title>
-      <link>https://blog.gnshjoo.io/post/fibo/</link>
-      <pubDate>Tue, 16 Mar 2021 17:29:29 +0900</pubDate>
-      
-      <guid>https://blog.gnshjoo.io/post/fibo/</guid>
-      <description>Go Python </description>
-    </item>
-    
-    <item>
-      <title>About Go mod</title>
-      <link>https://blog.gnshjoo.io/post/2021-02-16-go-mod/</link>
-      <pubDate>Tue, 16 Feb 2021 20:24:39 +0900</pubDate>
-      
-      <guid>https://blog.gnshjoo.io/post/2021-02-16-go-mod/</guid>
-      <description>보통 개발을 할때 프로젝트들은 Projects 디렉토리에 넣어서 관리 하였다. 하지만 Go 개발은 ~/gnshjoo/go/src/github.com/gnshjoo/ 이 디렉토리 하위에서 개발을 진행 할 수 밖에 없었다. go mod을 보기 전까지는..
-go mod  go mod를 사용하면 좋은 점은 $GOPATH/src 디렉토리 바깥으로 프로젝트 생성이 가능 언제 어디서나 누구라도 항상 동일한 빌드 결과를 보장한다.
- go mod init &amp;lt;module name&amp;gt; go mod init github.com/&amp;lt;username&amp;gt;/&amp;lt;repo&amp;gt; go mod init을 사용할 때 모들 명으로 초기화를 진행 해도 되지만 github.com/&amp;lt;username&amp;gt;/&amp;lt;repo&amp;gt;로 정의 하는 것을 추천한다.</description>
-    </item>
-    
-    <item>
-      <title>Install Oh My Zsh</title>
-      <link>https://blog.gnshjoo.io/post/install-oh-my-zsh/</link>
-      <pubDate>Sun, 11 Oct 2020 20:42:28 +0900</pubDate>
-      
-      <guid>https://blog.gnshjoo.io/post/install-oh-my-zsh/</guid>
-      <description>Iterm2 설정방법 터미널을 사용하면서 다른 개발자들의 터미널들을 보면서 무슨 쉘 써요 ? 무슨 테마써요 ..? 이렇게 많이 물어보곤 한다. 그래서 내가 설정한 테마를 공유하려고 한다.
-1. brew 패키지를 설치합니다. /bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&amp;#34; homebrew는 Apple or Linux 시스템에서 제공하지 않는 유용한 패키지 관리자입니다.
-2. iterm2 설치 brew install cask brew cask install iterm2 맥 기본 터미널보다 많이 쓰는 iterm2를 사용합니다
-3. Oh-My-Zsh / zsh 설치합니다. sh -c &amp;#34;$(curl -fsSL https://raw.</description>
-    </item>
-    
-    <item>
-      <title>Python Pipenv 가상환경 셋팅하기</title>
-      <link>https://blog.gnshjoo.io/post/python-pipenv/</link>
-      <pubDate>Thu, 08 Oct 2020 17:31:53 +0900</pubDate>
-      
-      <guid>https://blog.gnshjoo.io/post/python-pipenv/</guid>
-      <description>1. Python 가상환경 설정 Python3이 설치 되어있다는 가정하에 설명하도록 하겠다.
-$ pip3 install pipenv $ pipenv --version pipenv, version 2020.6.2 pipenv을 사용하려면 디렉토리를 만들어 준 후 디렉토리로 이동한다.
-$ mkdir django-test &amp;amp;&amp;amp; cd django-test $ pipenv shell Courtesy Notice: Pipenv found itself running within a virtual environment, so it will automatically use that environment, instead of creating its own for any project. You can set PIPENV_IGNORE_VIRTUALENVS=1 to force pipenv to ignore that environment and create its own instead.</description>
-    </item>
-    
-    <item>
-      <title>Hhkb 윤활하기</title>
-      <link>https://blog.gnshjoo.io/post/hhkb/</link>
-      <pubDate>Wed, 07 Oct 2020 21:58:30 +0900</pubDate>
-      
-      <guid>https://blog.gnshjoo.io/post/hhkb/</guid>
-      <description>HHKB 해피해킹 프로페셔널 HYBRID를 사용하고 있었다.
-항상 검색해보면 윤활작업을 해서 쓰고 있는 사람들이 있었는데 궁금해서 해보자 해보자 하다가&amp;hellip; 구리스를 주문해버렸다..
-크라이톡스/GPL205 G0 ..
-작업을 시작해보자..
-처음으로 HHKB 윤활에 도전해서 키보드를 열었을 때 많이 당황했다. 하지만 하나하나 재거를 했지만&amp;hellip;&amp;hellip; 무
-분해하기 전 모습
-분해 후 모습인데 키 하나하나 뽑을 때 엄청 고생했다. 그리고 스테빌은 잘 뽑히지 않아서 고생한거 같다. 유투브에서 많이 보고 시작 한것이었는데.. 이렇게 안 뽑힐 줄은 몰랐다.
-이 이후의 사진은 없다.</description>
-    </item>
-    
-    <item>
-      <title>golang 반복문</title>
-      <link>https://blog.gnshjoo.io/post/go_repetitive/</link>
-      <pubDate>Sat, 03 Oct 2020 19:04:45 +0900</pubDate>
-      
-      <guid>https://blog.gnshjoo.io/post/go_repetitive/</guid>
-      <description>1. Head First GO 게임 package main import ( &amp;#34;bufio&amp;#34; &amp;#34;fmt&amp;#34; &amp;#34;log&amp;#34; &amp;#34;math/rand&amp;#34; &amp;#34;os&amp;#34; &amp;#34;strconv&amp;#34; &amp;#34;strings&amp;#34; &amp;#34;time&amp;#34; ) func main() { seconds := time.Now().Unix() rand.Seed(seconds) target := rand.Intn(100) + 1 fmt.Println(&amp;#34;I&amp;#39;ve chosen a random number between 1 and 100.&amp;#34;) fmt.Println(&amp;#34;Can you guess it?&amp;#34;) reader := bufio.NewReader(os.Stdin) success := false for guesses := 0; guesses &amp;lt; 10; guesses++ { fmt.Println(&amp;#34;You have&amp;#34;, 10-guesses, &amp;#34;guesses left&amp;#34;) fmt.Println(&amp;#34;Make a guess:&amp;#34;) input, err := reader.ReadString(&amp;#39;\n&amp;#39;) if err !</description>
-    </item>
-    
-    <item>
-      <title>Hugo 블로그 설정하기</title>
-      <link>https://blog.gnshjoo.io/post/how_to_setting_hugo/</link>
-      <pubDate>Tue, 29 Sep 2020 22:24:51 +0900</pubDate>
-      
-      <guid>https://blog.gnshjoo.io/post/how_to_setting_hugo/</guid>
-      <description>1. Hugo 시작하기 hugo는 Go로 제작되어서 배포됩니다.
-2. OSX에 hugo 설치하기 brew install hugo hugo new site blog 초기화 된 프로젝트가 만들어집니다. config.toml 파일 하나가 만들어진다.
-hugo server -D 실행 후 localhost:1313으로 접속하면 아무 정보도 보이지 않는다. 아무런 정보가 보이지 않는 이유는 렌더링 할 내용이 없어서 이다.
-3. 테마 적용하기 Hugo의 테마를 제공해주는 곳은 https://themes.gohugo.io 이곳에서 자신이 원하는 테마를 /themes 안으로 넣으면 된다.
-그리고 그 넣은 테마의 config.toml에 따라서 설정해주면 된다.</description>
-    </item>
-    
+    <language>Ko-kr</language><atom:link href="https://blog.shjoo.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
