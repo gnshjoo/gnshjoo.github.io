@@ -5,6 +5,17 @@
     <link>https://blog.shjoo.io/</link>
     <description>Recent content on David Dev Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>Ko-kr</language><atom:link href="https://blog.shjoo.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>Ko-kr</language>
+    <lastBuildDate>Sun, 08 Jan 2023 14:45:43 +0900</lastBuildDate><atom:link href="https://blog.shjoo.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LexicalScope</title>
+      <link>https://blog.shjoo.io/post/lexicalscope/</link>
+      <pubDate>Sun, 08 Jan 2023 14:45:43 +0900</pubDate>
+      
+      <guid>https://blog.shjoo.io/post/lexicalscope/</guid>
+      <description>Lexcial Scope 란 ? lexical Scope 는 함수와 변수의 Scope를 선언된 위치를 기준으로 정합니다. 반대의 개념으로 Dynamic Scope 가 있습니다, Dynamic Scope는 호출된 시점을 기준으로 사용합니다.
+var x = 1; function a() { console.log(x); } function b() { var x = 10; a(); } b(); 위 코드의 결과 값은 1 이 출력 되고 있을 겁니다. 그 이유는 뭘까요 ? 함수. a는 변수 x가 선언된 시점의 전역 Scope를 가리키고 있습니다. 그래서 함수 b에서 a를 호출했어도, 1이 출력이 되는 것입니다.</description>
+    </item>
+    
   </channel>
 </rss>
