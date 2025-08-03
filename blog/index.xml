@@ -1,21 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blogs on Shjoo Blog</title>
-    <link>https://blog.shjoo.io/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content in Blogs on Shjoo Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.148.2</generator>
     <language>Ko-kr</language>
-    <lastBuildDate>Sun, 08 Jan 2023 14:45:43 +0900</lastBuildDate><atom:link href="https://blog.shjoo.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Jan 2023 14:45:43 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LexicalScope</title>
-      <link>https://blog.shjoo.io/blog/lexicalscope/</link>
+      <link>http://localhost:1313/blog/lexicalscope/</link>
       <pubDate>Sun, 08 Jan 2023 14:45:43 +0900</pubDate>
-      
-      <guid>https://blog.shjoo.io/blog/lexicalscope/</guid>
-      <description>Lexcial Scope 란 ? lexical Scope 는 함수와 변수의 Scope를 선언된 위치를 기준으로 정합니다. 반대의 개념으로 Dynamic Scope 가 있습니다, Dynamic Scope는 호출된 시점을 기준으로 사용합니다.
-var x = 1; function a() { console.log(x); } function b() { var x = 10; a(); } b(); 위 코드의 결과 값은 1 이 출력 되고 있을 겁니다. 그 이유는 뭘까요 ? 함수. a는 변수 x가 선언된 시점의 전역 Scope를 가리키고 있습니다. 그래서 함수 b에서 a를 호출했어도, 1이 출력이 되는 것입니다.</description>
+      <guid>http://localhost:1313/blog/lexicalscope/</guid>
+      <description>&lt;h3 id=&#34;lexcial-scope-란-&#34;&gt;Lexcial Scope 란 ?&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;lexical Scope&lt;/code&gt; 는 함수와 변수의 Scope를 &lt;code&gt;선언된 위치&lt;/code&gt;를 기준으로 정합니다.
+반대의 개념으로 &lt;code&gt;Dynamic Scope&lt;/code&gt; 가 있습니다, &lt;code&gt;Dynamic Scope&lt;/code&gt;는 &lt;code&gt;호출된 시점을 기준&lt;/code&gt;으로 사용합니다.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nx&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;위 코드의 결과 값은 &lt;code&gt;1&lt;/code&gt; 이 출력 되고 있을 겁니다. 그 이유는 뭘까요 ?
+함수. a는 변수 x가 선언된 시점의 전역 Scope를 가리키고 있습니다. 그래서 함수 b에서 a를 호출했어도, 1이 출력이 되는 것입니다.&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Github 저장소</title>
+      <link>http://localhost:1313/blog/test/</link>
+      <pubDate>Fri, 06 Jan 2023 17:49:06 +0900</pubDate>
+      <guid>http://localhost:1313/blog/test/</guid>
+      <description>&lt;p&gt;Github에서 특정 프로젝트를 포크하면, 원본 저장소를 자신의 저장소로 복사합니다. 이제 옮겨진 저장소에 기능을 추가하거나 내용을 수정하고 커밋하더라도 원본 저장소와는 분리 되어 있으므로 영향을 끼치지 않습니다.&lt;/p&gt;
+&lt;p&gt;포크한 저장소를 원본 저장소와 동기화 하는 방법을 알아보고자 합니다.&lt;/p&gt;
+&lt;p&gt;Github 원본 저장소의 주소 추가&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git remote -v
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;원본 저장소 위치를 추가합니다.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git remove add upstream [원본 저장소]
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;원본 저장소 내용을 fecth 하고, master 브랜치로 체크아웃 합니다.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git fetch upstream
+git checkout master
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;로컬 master 브랜치와 원본 저장소 master 브랜치 병합합니다&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
