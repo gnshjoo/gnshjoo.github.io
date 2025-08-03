@@ -2,27 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://shjoo.kr/blog/</loc>
     <lastmod>2023-01-08T14:45:43+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://shjoo.kr/categories/</loc>
     <lastmod>2023-01-08T14:45:43+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/javascrpit/</loc>
+    <loc>https://shjoo.kr/categories/javascrpit/</loc>
     <lastmod>2023-01-08T14:45:43+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/lexicalscope/</loc>
+    <loc>https://shjoo.kr/blog/lexicalscope/</loc>
     <lastmod>2023-01-08T14:45:43+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://shjoo.kr/</loc>
     <lastmod>2023-01-08T14:45:43+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/web/</loc>
+    <loc>https://shjoo.kr/categories/web/</loc>
     <lastmod>2023-01-08T14:45:43+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/test/</loc>
-    <lastmod>2023-01-06T17:49:06+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://shjoo.kr/tags/</loc>
   </url>
 </urlset>
